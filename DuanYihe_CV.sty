@@ -1,5 +1,7 @@
 \documentclass[10pt, letterpaper]{article}
 
+\usepackage{mathptmx}
+
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
@@ -80,7 +82,7 @@
         parsep=0.10 cm,
         partopsep=0pt,
         itemsep=0pt,
-        leftmargin=0 cm + 10pt
+        leftmargin= 2em
     ]
 }{
     \end{itemize}
@@ -160,7 +162,7 @@
         \cleaders\copy\ANDbox\hskip\wd\ANDbox
         \ignorespaces
     }
-    \newsavebox\ANDbox
+    \newsavebox\ANDbox 
     \sbox\ANDbox{$|$}
 
     \begin{header}
@@ -177,7 +179,7 @@
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-            \mbox{\hrefWithoutArrow{www.linkedin.com/in/duanyihe}{linkedin.com/in/duanyihe }}%
+            \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/duanyihe/}{linkedin.com/in/duanyihe }}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
@@ -199,9 +201,9 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Programmed a \textbf{FPGA} based rhythmic game on Basys3 Board using \textbf{Verilog HDL} in a group of 4 as a final project for the Digital Design course.
-                \item Managed user button input check, the score system and the health system shown by blinking on-board \textbf{PWM}\textbf{-controlled} LEDs , integrated these features with the overall project. 
-                \item Prototyped multi-board communication through \textbf{UART} protocal for global scores shown on on-board 7-segment LEDs. 
+                \item Developed a rhythmic game on the Basys3 \textbf{FPGA} Board using \textbf{Verilog HDL} as part of a team project for the Digital Design course. 
+                \item Implemented user input handling, game scoring, and health systems display via  \textbf{PWM}\textbf{-controlled} LEDs.
+                \item Prototyped multi-board communication using \textbf{UART protocol} for global score display on 7-segment LEDs. 
             \end{highlights}
         \end{onecolentry}
 
@@ -210,58 +212,58 @@
         \begin{twocolentry}{
             \textbf{May 2024 – Aug 2024}
         }
-            \textbf{Subject 404} |\textit{ C sharp, Unity, Virtual Reality, Git}  \end{twocolentry}
+            \textbf{Subject 404} |\textit{ C\#, Unity, Git}  \end{twocolentry}
 
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-                \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-                \item Created a test case generation tool that creates random XML docs from XML Schema
-            \end{highlights}
-        \end{onecolentry}
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Engineered an immersive 3D VR horror game for Meta Quest 2 using \textbf{Unity}, implementing AI-driven enemy behavior, NPC animation, and interactive mechanics via the \textbf{XR Interaction Toolkit}. 
+        \item Leveraged \textbf{OOP} principles in development and \textbf{GitHub} for CI/CD and version control. 
+        \item Awarded the Artemis (Highest Achievement) level under NUS Orbital program.
+    \end{highlights}
+\end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
            \textbf{ Oct 2024 – Present}
         }
-           \textbf{ Da Vinci Surgical Simulator} |\textit{ C sharp, Unity, Virtual Reality}  \end{twocolentry}
+           \textbf{ Da Vinci Surgical Simulator} |\textit{ C\#, Unity}  \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
+                \item Modelling a VR simulator in \textbf{Unity} to replicate the Da Vinci Surgical Robot as an educational tool for NUS Medicine students.
+                \item Utilising the Obi softbody package to simulate realistic physics for fat tissues and blood vessels in the surgical environment. 
             \end{highlights}
         \end{onecolentry}
     
-    \section{Co-Curriculum Activies}
+    \section{Co-Curricular Activities}
 
       \begin{twocolentry}{
-            May 2024 - Present
+            \textbf{May 2024 - Present}
         }
-            \textbf{Electrical Sub Team, BumbleBee | }\textit{Altium, STM32Cube, C/C++, Platform IO}\end{twocolentry}
+            \textbf{Electrical Sub Team, BumbleBee | }\textit{Altium, STM32Cube}\end{twocolentry}
 
         \vspace{0.1 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Served as Electrical subteam member, contributing in the construction of an (AUV) Autonomous Underwater Vehicle, won top 15 place in the Singapore Autonomous Underwater Vehicle Competition (SAUVC).
-                \item Developed communication protocols among \textbf{STM32 microcontrollers} and NVIDIA Jetson Xavier SBC (Single Board Computer), mainly focused on \textbf{CAN} (Control Area Network) protocol, ensuring secure data transmission.  
+                \item Architecting a Power Switching Board \textbf{PCB} for the BumbleBee AUV to supply power to PCBs, sensors, and GPU. 
+                \item Applying IC regulators with Power Good and Enable signal functionalities for efficient power management. 
+                \item Designing \textbf{EMI filter circuits} for noise-sensitive sensors, enhancing PCB space and robustness. 
             \end{highlights}
         \end{onecolentry}
 \vspace{0.2 cm}
         \begin{twocolentry}{
            \textbf{ Sept 2023 - Apr 2024}
         }
-            \textbf{Electrical Sub Team, Hornet 9.0 | }\textit{C/C++, Platform IO}\end{twocolentry}
+            \textbf{Electrical Sub Team, Hornet 9.0 | }\textit{C++, Platform IO}\end{twocolentry}
 
         \vspace{0.1 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Served as Electrical subteam member, contributing in the construction of an (AUV) Autonomous Underwater Vehicle, won top 15 place in the Singapore Autonomous Underwater Vehicle Competition (SAUVC).
-                \item Developed communication protocols among STM32 microcontrollers and NVIDIA Jetson Xavier SBC (Single Board Computer), mainly focused on \textbf{CAN} (Control Area Network) protocol, ensuring secure data transmission.  
+                \item Contributed to the development of an AUV, achieving top 15 in the Singapore Autonomous Underwater Vehicle Competition.
+                \item Focused on \textbf{CAN} communication protocols between STM32 microcontrollers and NVIDIA Jetson Xavier to ensure secure data transmission. 
             \end{highlights}
         \end{onecolentry}
 
@@ -270,16 +272,13 @@
         \begin{twocolentry}{
             \textbf{Feb 2024 - Sept 2024} 
         }
-            \textbf{Electrical Sub Team, Project Connecto |} \textit{C sharp, .NET, Arduino}\end{twocolentry}
+            \textbf{Electrical Sub Team, Project Connecto |} \textit{C\#, .NET, Arduino}\end{twocolentry}
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Served as Electrical Subteam member in NUS MedTech's Project Connecto, prototyping a mechanical mouse from scratch dedicated to assisting mascular dystrophy patients in NUSH (NUS Hospital) with IoT devices.
-                \item  Took charge of developing a GUI (Graphical User Interface) for mechanical mouse sensors using \textbf{C sharp} based on the \textbf{.NET} framework in Microsoft Studio, tested on an Arduino UNO.
+                \item Built a sensor GUI for a mechanical mouse tailored to assist muscular dystrophy patients at NUSH, utilising \textbf{C\#} on the \textbf{.NET} framework. 
             \end{highlights}
         \end{onecolentry}
-
-
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
@@ -290,7 +289,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Acted as the finance team lead in ECE ICF (Internship and Career Fair) 2025,in charge of managing setting sponsorship tier, allocating budget and creating invoice for sponsor companies. 
+                \item Managed the finance team for ECE Internship and Career Fair 2025, overseeing sponsorship tiers, budgets, and invoices for sponsors. 
             \end{highlights}
         \end{onecolentry}
 
@@ -300,7 +299,7 @@
     \section{Skills}
         
         \begin{onecolentry}
-            \textbf{Languages:} \textit{Verilog HDL, C sharp, Python, C, Assembly, Java, XML }\end{onecolentry}
+          \textbf{Programming Languages}: \textit{Verilog HDL, C\#, Python, C, Java, XML }\end{onecolentry}
 
          \vspace{0.1 cm}
 
@@ -310,7 +309,7 @@
         \vspace{0.1 cm}
 
          \begin{onecolentry}
-            \textbf{Software:}\textit{ Git,Github, VS Code, PlatformIO, Unity, Shell Command, Android Studio, .NET}  \end{onecolentry}
+            \textbf{Software:}\textit{ Git/Github, Visual Studio Code, PlatformIO, Unity, Shell Command, Android Studio, .NET}  \end{onecolentry}
 
   \section{Education}
         \begin{twocolentry}{
@@ -324,7 +323,7 @@
             \begin{highlights}
             \item \textit{Bachelor of Engineering in Electrical Engineering, with a minor in Quantitative Finance}
                 \item \textbf{GPA}: \textit{4.55/5.0} (\textit{expected 1st Class Honours})
-                \item \textbf{Coursework:}\textit{ Integrated Digital Design, Embedded Systems, Signal and Systems, , Electronic Circuits, Software Engineering}
+                \item \textbf{Coursework:}\textit{ Integrated Digital Design, Embedded Systems, Signal and Systems, Electronic Circuits, Software Engineering}
             \end{highlights}
         \end{onecolentry}
         
